@@ -7,7 +7,7 @@ Bangladesh University of Engineering and Technology (BUET)<br>
 
 ## Highlights
 
-![HeBA](docs/HeBA_architecture.pdf)
+![HeBA](docs/HeBA_architecture.jpg)
 
 > **<p align="justify"> Abstract:** Adapting large-scale Vision-Language Models (VLMs) like CLIP to downstream tasks often suffers from a "one-size-fits-all" architectural approach, where visual and textual tokens are processed uniformly by wide, generic adapters. We argue that this homogeneity ignores the distinct structural nature of the modalities—spatial locality in images versus semantic density in text. To address this, we propose HeBA (Heterogeneous Bottleneck Adapter), a unified architectural framework that introduces modality-specific structural inductive biases. HeBA departs from conventional designs through three key architectural innovations: (1) Heterogeneity: It processes visual tokens via 2D depthwise-separable convolutions to preserve spatial correlations, while distinctively processing text tokens via dense linear projections to capture semantic relationships; (2) Bottleneck Regularization: Unlike standard expanding adapters, HeBA employs a compression bottleneck ($D \rightarrow D/4$) that forces the model to learn compact, robust features; and (3) Forced Kaiming Initialization: We eliminate the restrictive zero-initialization paradigm, utilizing a "hot start" strategy that accelerates convergence. Extensive experiments demonstrate that HeBA’s architecturally specialized design achieves superior stability and accuracy, establishing a new state-of-the-art on 11 few-shot benchmarks. </p>
 
