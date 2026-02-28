@@ -81,11 +81,17 @@ TRAINER.HeBA.ADAPTER_SCALE_NOVEL 0.010 \
 TRAINER.HeBA.SLOW_FAST_RATIO 0.8
 ```
 ## Citation
-If you find our work or this repo helpful for your research, please kindly cite the following paper:
 
-```bash
+If you find this code or research helpful, please consider citing our paper:
 
-```
+```bibtex
+@article{islam2026heba,
+  title={HeBA: Heterogeneous Bottleneck Adapters for Robust Vision-Language Models},
+  author={Islam, Md Jahidul},
+  journal={Under Review},
+  year={2026}
+}
+````
 
 ## Acknowledgements
 Our code is based on [Co-CoOp](https://github.com/KaiyangZhou/CoOp), [CoOp](https://github.com/KaiyangZhou/CoOp), [MMA](https://github.com/ZjjConan/VLM-MultiModalAdapter) and [LWEIB](https://github.com/ZjjConan/VLM-LwEIB) repositories. We thank the authors for releasing their codes.
