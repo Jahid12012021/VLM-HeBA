@@ -85,12 +85,14 @@ TRAINER.HeBA.SLOW_FAST_RATIO 0.8
 If you find this code or research helpful, please consider citing our paper:
 
 ```bibtex
-@article{islam2026heba,
+@misc{islam2026heba,
   title={HeBA: Heterogeneous Bottleneck Adapters for Robust Vision-Language Models},
   author={Islam, Md Jahidul},
-  journal={Under Review},
-  year={2026}
+  year={2026},
+  eprint={2603.16653},
+  archivePrefix={arXiv}
 }
+
 ````
 
 ## Acknowledgements
